@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 @RequiredArgsConstructor
 public class DeveloperRestController {
 
-    private List<Developer> developers = Stream.of(
+    public static List<Developer> DEVELOPERS = Stream.of(
             new Developer(1L,"User","Userov"),
             new Developer(2L,"Admin","Adminov"),
             new Developer(3L,"Maksim","Maksimov"),
@@ -29,7 +29,7 @@ public class DeveloperRestController {
 
     @PostConstruct
     private void init(){
-        developers.forEach(repository::add);
+        DEVELOPERS.forEach(repository::add);
     }
 
     @GetMapping
