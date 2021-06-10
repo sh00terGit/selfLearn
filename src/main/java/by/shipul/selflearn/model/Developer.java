@@ -1,4 +1,4 @@
-package by.shipul.stepic.model;
+package by.shipul.selflearn.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

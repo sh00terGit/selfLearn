@@ -1,8 +1,8 @@
-package by.shipul.stepic.rabbit.publisher;
+package by.shipul.selflearn.rabbit.publisher;
 
-import by.shipul.stepic.model.Developer;
-import by.shipul.stepic.model.DeveloperStatus;
-import by.shipul.stepic.rabbit.config.RabbitConfig;
+import by.shipul.selflearn.model.Developer;
+import by.shipul.selflearn.model.DeveloperStatus;
+import by.shipul.selflearn.rabbit.config.RabbitConfig;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

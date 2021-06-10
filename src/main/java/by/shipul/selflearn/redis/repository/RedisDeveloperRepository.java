@@ -1,6 +1,6 @@
-package by.shipul.stepic.redis.repository;
+package by.shipul.selflearn.redis.repository;
 
-import by.shipul.stepic.model.Developer;
+import by.shipul.selflearn.model.Developer;
 
 import java.util.Map;
 

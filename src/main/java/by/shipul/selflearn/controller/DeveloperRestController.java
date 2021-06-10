@@ -1,7 +1,7 @@
-package by.shipul.stepic.controller;
+package by.shipul.selflearn.controller;
 
-import by.shipul.stepic.model.Developer;
-import by.shipul.stepic.redis.repository.RedisDeveloperRepository;
+import by.shipul.selflearn.model.Developer;
+import by.shipul.selflearn.redis.repository.RedisDeveloperRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package by.shipul.stepic.feign;
+package by.shipul.selflearn.feign;
 
-import by.shipul.stepic.model.Developer;
+import by.shipul.selflearn.model.Developer;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

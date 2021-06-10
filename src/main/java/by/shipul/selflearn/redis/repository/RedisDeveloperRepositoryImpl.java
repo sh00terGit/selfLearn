@@ -1,6 +1,6 @@
-package by.shipul.stepic.redis.repository;
+package by.shipul.selflearn.redis.repository;
 
-import by.shipul.stepic.model.Developer;
+import by.shipul.selflearn.model.Developer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;

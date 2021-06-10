@@ -1,4 +1,4 @@
-package by.shipul.stepic.redis.publish;
+package by.shipul.selflearn.redis.publish;
 
 public interface MessagePublisher {
 

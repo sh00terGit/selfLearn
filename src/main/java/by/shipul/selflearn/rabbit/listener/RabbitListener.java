@@ -1,7 +1,7 @@
-package by.shipul.stepic.rabbit.listener;
+package by.shipul.selflearn.rabbit.listener;
 
-import by.shipul.stepic.model.DeveloperStatus;
-import by.shipul.stepic.rabbit.config.RabbitConfig;
+import by.shipul.selflearn.model.DeveloperStatus;
+import by.shipul.selflearn.rabbit.config.RabbitConfig;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,7 +1,7 @@
-package by.shipul.stepic.redis.config;
+package by.shipul.selflearn.redis.config;
 
-import by.shipul.stepic.redis.publish.MessagePublisher;
-import by.shipul.stepic.redis.publish.MessagePublisherImpl;
+import by.shipul.selflearn.redis.publish.MessagePublisher;
+import by.shipul.selflearn.redis.publish.MessagePublisherImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;

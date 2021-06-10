@@ -1,6 +1,6 @@
-package by.shipul.stepic.controller;
+package by.shipul.selflearn.controller;
 
-import by.shipul.stepic.feign.DeveloperFeignClient;
+import by.shipul.selflearn.feign.DeveloperFeignClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,10 +1,9 @@
-package by.shipul.stepic.redis.publish;
+package by.shipul.selflearn.redis.publish;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.ChannelTopic;
-import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
 @Slf4j

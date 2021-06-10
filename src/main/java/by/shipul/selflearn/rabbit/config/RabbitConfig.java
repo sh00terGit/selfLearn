@@ -1,4 +1,4 @@
-package by.shipul.stepic.rabbit.config;
+package by.shipul.selflearn.rabbit.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
