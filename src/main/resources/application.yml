@@ -1,11 +1,35 @@
-
 spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:~/testdb
-    username: root
-    password: root
-  jpa.properties.hibernate.dialect: org.hibernate.dialect.H2Dialect
+  main:
+    banner-mode: "off"
+  application:
+    name: rabbitmq-application
+  cloud:
+    stream:
+      binders:
+        rabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                deliveryMode: ${DELIVERY_MODE:2}
+                host: ${RABBIT_HOST:localhost}
+                port: ${RABBIT_PORT:5672}
+                username: ${RABBIT_USERNAME:guest}
+                password: ${RABBIT_PASSWORD:guest}
+                virtual-host: ${RABBIT_VHOST:/}
+      bindings:
+        developer_routing:
+          destination: queue.developers_exchange
+          binder: rabbit
+          group: developer_queue
+
+#
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:~/testdb
+#    username: root
+#    password: root
+#  jpa.properties.hibernate.dialect: org.hibernate.dialect.H2Dialect
 #  sql:
 #    init:
 #      schema-locations: classpath:data/table.sql
@@ -24,4 +48,5 @@ feign:
         loggerLevel: full
 #        requestInterceptors:
 #          - by.shipul.stepic.feign.interceptor.DeveloperFeignClientInterceptor
+
 

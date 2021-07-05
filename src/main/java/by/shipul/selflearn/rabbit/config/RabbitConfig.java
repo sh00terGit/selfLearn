@@ -21,6 +21,7 @@ import org.springframework.context.annotation.Configuration;
  *docker run -d --rm --name redis --network=host redis:alpine3.13
  *
  */
+/*
 @Configuration
 public class RabbitConfig {
 
@@ -66,3 +67,4 @@ public class RabbitConfig {
 
 
 }
+*/

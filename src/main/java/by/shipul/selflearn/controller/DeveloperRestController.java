@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Slf4j
-@RestController
+//@RestController
 @RequestMapping("/api/developers")
 @RequiredArgsConstructor
 public class DeveloperRestController {
