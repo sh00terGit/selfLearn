@@ -8,5 +8,18 @@
 * Редиска
  docker run -d --rm --name redis --network=host redis:alpine3.13
 
+* заслать в рэббит и получить через Listener
+http://localhost:8080/api/rabbit/developers/2/clever
+  
+либо http://localhost:15672
+{
+"developer": {
+"id": 3,
+"firstName": "Maksim",
+"lastName": "Maksimov"
+},
+"process": "PROCESS",
+"message": "developer placed into company clever"
+}
 
 
